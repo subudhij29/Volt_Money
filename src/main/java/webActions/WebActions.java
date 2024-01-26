@@ -11,6 +11,8 @@ public class WebActions {
      public static void click(WebDriver driver,String xpath) {
     	 waitElement(driver, xpath);
     	 driver.findElement(By.xpath(xpath)).click();
+
+
      }
      public static void waitElement(WebDriver driver,String xpath) {
     	 WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -25,3 +27,8 @@ public class WebActions {
     	return driver.findElement(By.xpath(xpath)).getText();
      }
 }
+
+
+
+
+

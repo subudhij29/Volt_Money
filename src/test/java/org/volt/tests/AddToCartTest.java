@@ -20,8 +20,7 @@ public class AddToCartTest extends BaseClass {
     	 WebActions.click(driver, FileReaderUtil.getObjProperty(Constants.ADDTO_CART).replace("PARAM",product[0] ));
     	 
     	 
-//   	WebElement ele= driver.findElement(By.xpath("//*[contains(text(),'"+product[0]+"')]//ancestor::div[@class='inventory_item_description']"
-//   	 		+ "//child::button[text()='Add to cart']"));
+
    	
    	 
      }else {
